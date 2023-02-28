@@ -6,6 +6,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	color: #1B1A17;
+	min-width: 1366px;
 }
 .wrapper {
 	min-height: 100%;
@@ -15,11 +16,12 @@ body {
 }
 .content {
 	flex: 1 1 auto;
+	margin: auto;
+
 }
 
 // ПЕРВЫЙ РАЗДЕЛ
 .screen_1 {
-	width: 1366px;
 	height: 855px;
 	margin: 0px auto;
 	background: #FDFDFB;
@@ -254,7 +256,6 @@ body {
 
 // ВТОРОЙ РАЗДЕЛ
 .screen_2 {
-	width: 1366px;
 	height: 720px;
 	background: #FFFFFF;
 	margin: 0px auto;
@@ -378,7 +379,6 @@ body {
 
 // БАННЕР
 .banner {
-	width: 1366px;
 	height: 519px;
 	margin: 0px auto;
 	.container{
@@ -455,7 +455,6 @@ body {
 
 // ТРЕТИЙ РАЗДЕЛ
 .screen_3 {
-	width: 1366px;
 	margin:81px auto 90px;
 	background: #FFFFFF;
 	.container {
@@ -518,7 +517,6 @@ body {
 
 // FOOTER
 .footer {
-	width: 1366px;
 	height: 275px;
 	margin: 0 auto;
 	background: #444240;
